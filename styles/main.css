@@ -1,0 +1,70 @@
+/*install fonts*/
+@font-face {
+    font-family: chelseamarket;
+    src: url(../fonts/ChelseaMarket-Regular.ttf);
+}
+
+.header {
+    width: 100%;
+    overflow: hidden;
+    background: linear-gradient(to bottom, red, blue);
+    height: 550px;
+}
+
+body {
+    margin: 0;
+}
+
+.container {
+    width: 70%;
+    overflow: hidden;
+    margin: auto;
+}
+
+.header .logo {
+    font-size: 32px;
+    float: left;
+    font-family: ChelseaMarket;
+    color: #fff;
+}
+
+.header .navigation {
+    float: right;
+    margin-top: 40px;
+}
+
+.header .navigation li {
+    float: right;
+    margin-left: 20px;
+    font-size: 18px;
+    display: block;
+}
+
+.header .navigation li a {
+    color: #fff;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header .navigation li a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+/*
+.header .navigation li a:visited {
+    color: blue;
+} */
+
+.icon-kelas {
+    width: 300px;
+    height: 300px;
+   /* background: red; */
+    background-image: url(../images/my-room.jpeg);
+    background-size: cover;
+    border-radius: 50%;
+}
+
+.parent {
+    margin-top: 100px;
+}
